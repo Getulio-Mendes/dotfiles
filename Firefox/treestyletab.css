@@ -16,8 +16,8 @@
   --tab-border: var(--browser-border, var(--browser-bg-more-darker, var(--toolbar-non-lwt-border-color)));
   --tab-dropmarker: var(--browser-fg, var(--toolbar-non-lwt-textcolor));
 
-  --tab-surface-hover: var(--browser-bg-hover-for-header-image, var(--browser-bg-less-lighter, #e0e8f6 /* #grey-10 - #191104, (parseInt('f9f9fa', 16) - parseInt('191104', 16)).toString(16) */));
-  --tab-surface-active: var(--browser-bg-active-for-header-image, var(--browser-bg-lighter, #c1d2ee /* #grey-10 - #38270c, (parseInt('f9f9fa', 16) - parseInt('38270c', 16)).toString(16) */));
+  --tab-surface-hover: var(--browser-bg-hover-for-header-image, var(--browser-bg-less-lighter, #e1e8f6 /* #grey-10 - #191104, (parseInt('f9f9fa', 16) - parseInt('191104', 16)).toString(16) */));
+  --tab-surface-active: var(--browser-bg-active-for-header-image, var(--browser-bg-lighter, #c2d2ee /* #grey-10 - #38270c, (parseInt('f9f9fa', 16) - parseInt('38270c', 16)).toString(16) */));
   --tab-surface-active-hover: var(--browser-bg-active-for-header-image, var(--browser-bg-more-lighter, #d1e2fe /* #grey-10 - #281600 + #000004, (parseInt('f9f9fa', 16) - parseInt('281600', 16) + parseInt('000004', 16)).toString(16) */));
 
   --tab-highlighted-highlight: var(--toolbar-non-lwt-inverted-textcolor);
@@ -105,7 +105,7 @@ tab-item .burster {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --toolbar-non-lwt-bgcolor: #252526;
+    --toolbar-non-lwt-bgcolor: #3c3836;
     --toolbar-non-lwt-textcolor: #efefef;
     --toolbar-non-lwt-inverted-textcolor: black;
     --toolbar-non-lwt-border-color: #4a4a4d;
@@ -164,12 +164,12 @@ tab-item.pinned,
 }
 
 :root{
-  --active-tab-color-a     : #6b5874;
-  --active-tab-color-b     : #d5749d;
-  --last-active-tab-color  : #35B5B82b;
-  --active-tab-color-shadow: rgba(210, 115, 156, 0.5);
+  --active-tab-color-a     : #b57614;
+  --active-tab-color-b     : #fabd2f;
+  --last-active-tab-color  : #83a598;
+  --active-tab-color-shadow: #79740e;
   --active-tab-text-color  : white;
-  --tab-hover-color        : #28282f;
+  --tab-hover-color        : #7c6f64;
   --tab-text-color         : white;
   --close-box-background   : #31313a;
 
@@ -238,12 +238,11 @@ tab-item:not(pinned) tab-closebox{
   margin-left: 20px;
   margin-bottom: 8px;
   order: 1000;
-  filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.2)) grayscale(80%) opacity(80%);
+  filter: drop-shadow(0px 4px 6px rgba(255,255,255,0.3));
   transition: all 0.2s ease-in-out;
 }
 
 :root.right tab-item.active:not(:hover) tab-favicon {
-  filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.2)) grayscale(10%) opacity(80%);
   transform: scale(150%);
   margin-right: calc(5px + (10px * var(--favicon-shift)));
 }
