@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/gg/.config/rofi'
+let g:netrw_dirhist_3='/home/gg/dotfiles/Firefox/chrome'
+let g:netrw_dirhist_2='/home/gg/.mozilla/firefox/v5tgyqbb.default-release/chrome'
+let g:netrw_dirhist_1='/home/gg/.mozilla/firefox/v5tgyqbb.default-release/chrome/findbar'
+let g:netrw_dirhist_0='/home/gg/.config/nvim/vim-plug'
+let g:netrw_dirhist_9='/home/gg/.config/rofi'
+let g:netrw_dirhist_8='/home/gg/polybar'
+let g:netrw_dirhist_7='/home/gg/.config/nvim/general'
+let g:netrw_dirhist_6='/home/gg/.config/nvim'
+let g:netrw_dirhist_5='/home/gg/.config/nvim/general'

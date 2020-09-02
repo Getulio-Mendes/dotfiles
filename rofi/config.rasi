@@ -1,0 +1,16 @@
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
+
+window{
+  height: 600px;
+  width: 30%;
+  x-offset: 0;
+  y-offset: -85px;
+  location: west;
+  anchor: west;
+}
+
+
+@import "/usr/share/rofi/themes/gruvbox-dark.rasi"
