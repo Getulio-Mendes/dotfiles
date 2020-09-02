@@ -5,3 +5,13 @@ opacity-rule = [
     "100:class_g  = 'firefox'",
     "100:class_g  = 'Rofi'",
 ];
+
+
+shadow = true;
+shadow-radius = 20;
+shadow-opacity = 1;
+corner_radius = 15;
+
+shadow-exclude = [
+  "class_g = 'Polybar'"
+];
