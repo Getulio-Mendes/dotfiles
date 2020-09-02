@@ -282,4 +282,9 @@ tab-item.pinned{
   transform: scale(130%) !important;
   margin-left: 7px;
 }
+
+tab-item{
+  background: #504945;
+}
+
 */

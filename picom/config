@@ -12,6 +12,8 @@ shadow-radius = 20;
 shadow-opacity = 1;
 corner_radius = 15;
 
+corner-radius = 6;
+
 shadow-exclude = [
   "class_g = 'Polybar'"
 ];

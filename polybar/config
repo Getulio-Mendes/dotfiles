@@ -68,9 +68,9 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 
 [bar/Sindicator]
-width = 21%
+width = 20%
 height = 25
-offset-x = 79%:-5
+offset-x = 78%
 radius = 8
 fixed-center = true
 ;border-left-size = 76%
@@ -78,9 +78,11 @@ fixed-center = true
 border-left-color = #000000000
 
 override-redirect = true
+wm-restack = i3
+
 foreground = ${colors.foreground}
 background = ${colors.background}
-font-0 = Fira Code NerdFont fixed:pixelsize=11;2
+font-0 = Fira Code NerdFont fixed:pixelsize=12;1
 font-1 = Font Awesome 5 Free Solid:style=Solid:pixelsize=11;2
 modules-center = alsa memory cpu wlan eth temperature date 
 module-margin-right = 1
@@ -90,9 +92,6 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 
 line-size = 3
-
-tray-position = right
-tray-padding = 2
 
 [module/xwindow]
 type = internal/xwindow
@@ -185,7 +184,6 @@ interval = 1
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #9d0006
-format-overline = #900006
 label = %percentage:2%%
 
 [module/memory]
@@ -194,7 +192,6 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #076678
-format-overline = #076678
 label = %percentage_used%%
 
 [module/wlan]
@@ -225,7 +222,6 @@ interface = enp0s3
 interval = 3.0
 
 format-connected-underline = #79740e
-format-connected-overline = #79740e
 label-connected = 
 
 format-disconnected =
@@ -244,10 +240,8 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #076678
-format-overline = #076678
 
 label = %date% %time%
 
