@@ -1,17 +1,17 @@
 :root{
   --accent-color-1: #6b5874; /* color for hover. same as active-tab gradient from tst*/
-  --accent-color-2: #d5749d;  
-  --color-1-a     : #D1719F; 
-  --color-1-b     : #d18faf; 
-  --color-2-a     : #31A6AD; 
-  --color-2-b     : #69aaad; 
-  --color-3-a     : #D7A398; 
-  --color-3-b     : #ddbba0; 
-  --color-4-a     : #89a7d9; 
-  --color-4-b     : #a3b8d9; 
-  --color-5-a     : #2cc1d5; 
+  --accent-color-2: #fb4934;  
+  --color-1-a     : #fe8019; 
+  --color-1-b     : #d3869b; 
+  --color-2-a     : #83a598;
+  --color-2-b     : #8ec07c;
+  --color-3-a     : #076678;
+  --color-3-b     : #8f3f71;
+  --color-4-a     : #af3a03;
+  --color-4-b     : #b57614;
+  --color-5-a     : #b8bb26;
   --color-5-b     : #4dc5d5; 
-  --foloder-color : #28282f
+  --foloder-color : #28282f;
 }
 
 #main a { 
