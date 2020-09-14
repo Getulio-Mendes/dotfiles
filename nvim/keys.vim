@@ -1,4 +1,3 @@
-nnoremap <TAB> :tabn <CR>
 vnoremap < <gv
 vnoremap > >gv
 
