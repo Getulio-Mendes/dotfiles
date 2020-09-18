@@ -37,6 +37,9 @@ _comp_options+=(globdots)
 # Basic
 export TERM=xterm-256color
 alias ls='ls --color=auto'
+alias vim='nvim'
+alias vi='nvim'
+neofetch
 
 # Arrow history search
 bindkey "^[[A" history-search-backward
