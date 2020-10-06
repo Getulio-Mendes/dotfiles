@@ -31,7 +31,7 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 
 " EMMET
 
-let g:user_emmet_leader_key=','
+let g:user_emmet_leader_key=";"
 
 " COC 
 
