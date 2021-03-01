@@ -21,7 +21,7 @@ set background=dark                     " tell vim what the background color loo
 set cmdheight=2                         " More space for displaying messages
 set t_Co=256                            " Support 256 colors
 set pumheight=10                        " Makes popup menu smaller
-set laststatus=2                        " Always display the status line
+set nohlsearch
 set ruler              			            " Show the cursor position all the time
 set cursorline                          " Enable highlighting of the current line
 set mouse=a                             " Enable your mouse

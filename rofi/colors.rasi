@@ -5,6 +5,7 @@
     background:           #0f1a20;
     background-solid:     #590004; 
     selected-background:  #27343F;
+    background-ligth: #3c4850;
     /*#87b5d7;*/  
     /*#6eacda;*/
     /*#deca72;*/

@@ -9,3 +9,4 @@ nnoremap <C-l> <C-W>l
 
 nnoremap <Leader>h :vertical resize +3 <CR>
 nnoremap <Leader>l :vertical resize -3 <CR>
+nnoremap <TAB> :tabn <CR>

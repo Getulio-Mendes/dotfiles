@@ -2,28 +2,22 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'morhetz/gruvbox'
   Plug 'sheerun/vim-polyglot'
   Plug 'ap/vim-css-color'
-  Plug 'itchyny/lightline.vim'
   Plug 'junegunn/goyo.vim'
 
   Plug 'justinmk/vim-sneak'
   Plug 'mattn/emmet-vim'
+  Plug 'jiangmiao/auto-pairs'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " THEMES AND APERANCE
 
-colorscheme gruvbox
 let g:gruvbox_contrast_dark = '(hard)' 
+colorscheme gruvbox
 
-
-" SNEAK
+"SNEAK
 let g:sneak#label = 1
 let g:sneak#use_ic_scs = 1
-
-" Lightline
-let g:lightline = {
-      \ 'colorscheme': 'jellybeans',
-      \ }
 
 " COCEX
 nmap <space>e :CocCommand explorer<CR>
