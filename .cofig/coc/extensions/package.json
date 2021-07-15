@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "coc-explorer": ">=0.7.27",
-    "coc-json": ">=1.2.6",
-    "coc-marketplace": ">=1.7.0"
-  }
-}
