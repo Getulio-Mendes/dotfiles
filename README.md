@@ -1,1 +1,1 @@
-# .dotFiles
+# Personal configuration to arch linux
