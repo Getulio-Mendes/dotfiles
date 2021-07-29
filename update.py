@@ -2,7 +2,7 @@ import os
 
 PATH = os.getenv("HOME") + "/dotfiles"
 
-ignore = ["Firefox", ".git", "install.txt", "README.md", "update.py"]
+ignore = ["Firefox", ".git", "install.txt", "README.md", "update.py", ".config"]
 itens = os.listdir(PATH)
 
 update = []
@@ -17,9 +17,10 @@ for entry in update:
 
 os.system("pacman -Qe > install.txt")
 
-print(update)
-#for x in update:
-    #os.system("cp -r ../{} .".format(x))
+for x in update:
+    os.system("cp -r ../{} .".format(x))
 
 os.system("git add .")
 os.system("git commit -m 'Auto Update'")
+
+print("Remenber to cp .config and 'git push'")
