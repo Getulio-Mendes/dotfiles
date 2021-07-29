@@ -15,6 +15,11 @@ print("Updating ...")
 for entry in update:
     print(entry)
 
-for x in update:
-    os.system("cp -r ../{} .".format(x))
+os.system("pacman -Qe > install.txt")
 
+print(update)
+#for x in update:
+    #os.system("cp -r ../{} .".format(x))
+
+os.system("git add .")
+os.system("git commit -m 'Auto Update'")
