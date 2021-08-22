@@ -20,7 +20,6 @@ gcc 11.1.0-1
 gettext 0.21-1
 gimp 2.10.24-5
 git 2.32.0-1
-gotop 4.1.1-1
 grep 3.6-1
 groff 1.22.4-6
 grub 2:2.06-1
@@ -48,6 +47,7 @@ networkmanager 1.32.2-1
 newsboat 2.24-1
 nitrogen 1.6.1-3
 nodejs-lts-erbium 12.22.0-2
+ntfs-3g 2017.3.23-5
 nvidia 465.31-13
 nvidia-utils 465.31-1
 onedrive-abraunegg 2.4.13-1
