@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/dark/.dotFiles/i3_'
+let g:netrw_dirhist_8='/home/dark'
+let g:netrw_dirhist_7='/home/dark/.cache'
+let g:netrw_dirhist_6='/home/dark/.config/nvim/autoload'
+let g:netrw_dirhist_5='/home/dark/Workflow/notas'
+let g:netrw_dirhist_4='/home/dark/Workflow/VnoteBase/public/src'
+let g:netrw_dirhist_3='/home/dark/Workflow/VnoteBase/public'
+let g:netrw_dirhist_2='/home/dark/Workflow/VnoteBase'
+let g:netrw_dirhist_1='/home/dark/Workflow/VnoteBase/public/src'
+let g:netrw_dirhist_0='/home/dark/Workflow/VnoteBase/public'
