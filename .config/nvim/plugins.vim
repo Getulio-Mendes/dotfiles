@@ -7,6 +7,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'justinmk/vim-sneak'
   Plug 'mattn/emmet-vim'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'lukas-reineke/indent-blankline.nvim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
