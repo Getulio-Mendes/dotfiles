@@ -38,6 +38,7 @@ man-db 2.9.4-2
 mlocate 0.26.git.20170220-7
 mpc 0.33-3
 mpd 0.22.9-1
+mupdf-gl 1.18.0-2
 nano 5.8-1
 nasm 2.15.05-1
 ncmpcpp 0.9.2-3
@@ -60,6 +61,7 @@ polybar 3.4.3-2
 python-pip 20.3.4-1
 ranger 1.9.3-3
 rofi 1.6.1-1
+rsync 3.2.3-4
 rxvt-unicode 9.26-2
 sed 4.8-1
 sudo 1.9.7.p1-1

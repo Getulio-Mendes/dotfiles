@@ -1,0 +1,10 @@
+# GIMP gimp-convolve-tool options
+
+(background (color-rgb 1 0.7686274509803922 0.52156862745098043))
+(brush "Texture Hose 01")
+(dynamics "Dynamics Off")
+(palette "Color History")
+(brush-size 150)
+(brush-spacing 0.40000000000000002)
+
+# end of gimp-convolve-tool options

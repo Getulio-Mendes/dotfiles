@@ -1,0 +1,10 @@
+set pages-per-row 1
+set adjust-open "best-fit"
+set page-padding 1
+
+set default-bg "#0f1a20"
+
+set recolor 
+set recolor-keephue
+set recolor-lightcolor "#0f1a20"
+set recolor-darkcolor "#ffc485"

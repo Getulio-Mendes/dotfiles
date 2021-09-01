@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Mupdf
+Type=Application
+Path=/usr/bin
+Exec=mupdf
+Icon=/home/dark/.local/share/applications/Mupdf-icon.png
+Terminal=false

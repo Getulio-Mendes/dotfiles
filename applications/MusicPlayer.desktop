@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Music Player
+Type=Application
+Path=/usr/bin
+Exec=ncmpcpp
+Icon=/home/dark/.local/share/applications/juk.svg
+Terminal=true

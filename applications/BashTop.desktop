@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Bashtop
+Type=Application
+Path=/usr/bin
+Exec=bashtop
+Icon=/home/dark/.local/share/applications/SysMonTask.svg
+Terminal=true

@@ -2,7 +2,7 @@ import os
 
 PATH = os.getenv("HOME") + "/dotfiles"
 
-ignore = ["Firefox", ".git", "install.txt", "README.md", "update.py", ".config"]
+ignore = ["Firefox", ".git", "applications", "fonts","install.txt", "token", "README.md", "update.py", "copyignore"]
 itens = os.listdir(PATH)
 
 update = []
@@ -15,12 +15,15 @@ print("Updating ...")
 for entry in update:
     print(entry)
 
+for x in update:
+    os.system("rsync -r -v --exclude-from=./copyignore ../{} .".format(x))
+
+print("Coping ~/.local/share/applications and Font")
+os.system("rsync -r -v --exclude-from=./copyignore ../.local/share/applications .")
+os.system("rsync  -r -v --exclude-from=./copyignore ../.local/share/fonts .")
+
 os.system("pacman -Qe > install.txt")
 
-for x in update:
-    os.system("cp -r ../{} .".format(x))
+os.system("git add . && git commit -m 'Auto update'")
+os.system("git push")
 
-os.system("git add .")
-os.system("git commit -m 'Auto Update'")
-
-print("Remenber to cp .config and 'git push'")

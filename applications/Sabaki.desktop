@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Sabaki Go
+Type=Application
+Path=/usr/bin
+Exec=Sabaki.AppImage
+Icon=/home/dark/.local/share/applications/Sabaki-icon.png
+Terminal=false

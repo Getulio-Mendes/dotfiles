@@ -1,0 +1,10 @@
+# settings
+
+(GimpGegl-gegl-oilify-config "2020-09-10 20:58:46"
+    (time 1599771526)
+    (mask-radius 4)
+    (exponent 8)
+    (intensities 128)
+    (use-inten yes))
+
+# end of settings
