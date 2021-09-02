@@ -1,14 +1,65 @@
 configuration {
-    font                : "Hack Nerd Font UI K 11";
-    show-icons          : true;
-    icon-theme          : "Papirus";
-    display-drun        : "Applications";
-    drun-display-format : "{name}";
-    disable-history     : false;
-    fullscreen          : false;
-    hide-scrollbar      : true;
-    sidebar-mode        : false;
+	modi: "window,run,drun";
+  font: "Hack Nerd Font 11";
+	yoffset: 0;
+	xoffset: 0;
+	show-icons: true;
+	terminal: "alacritty";
+	icon-theme          : "Papirus";
+	disable-history: false;
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
 }
 
-@import "colors.rasi"
-@import "fluent.rasi"
+window{
+	background-color: @background;
+  text-color: @foreground; 
+  border: false;
+  border-radius: 0;
+}
+element{
+	orientation:                    horizontal;
+  border-radius:                  3px;
+  padding:                        1% 0.5% 1% 0.75%;
+}
+element.selected.normal{
+    background-color: @selected-background;
+    text-color:       @foreground;
+}
+
+element normal.normal {
+    background-color: @element-background;
+    text-color:       @foreground;
+}
+element.alternate.normal {
+    background-color: @element-background;
+    text-color:       @foreground;
+}
+
+element-icon {
+  size:                           24px;
+}
+
+listview {
+  padding:                        6px;
+  border-radius:                  6px;
+  columns:                        2;
+  lines:                          7;
+  spacing:                       	1%;
+  layout:                         vertical;
+  scrollbar: false;
+}
+element-text, element-icon {
+  background-color: inherit;
+  text-color: inherit; 
+}
+case-indicator, num-filtered-rows, num-rows, prompt{
+  enabled: false;
+}
+
+entry {
+  placeholder-color: @background;
+}
+@import "colors"

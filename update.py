@@ -2,7 +2,9 @@ import os
 
 PATH = os.getenv("HOME") + "/dotfiles"
 
-ignore = ["Firefox", ".git", "applications", "fonts","install.txt", "token", "README.md", "update.py", "copyignore"]
+file = open(r"ignore","r")
+ignore = file.read().split()
+file.close()
 itens = os.listdir(PATH)
 
 update = []

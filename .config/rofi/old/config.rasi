@@ -1,0 +1,12 @@
+configuration {
+    font                : "Hack Nerd Font UI K 11";
+    show-icons          : true;
+    icon-theme          : "Papirus";
+    display-drun        : "Applications";
+    drun-display-format : "{name}";
+    disable-history     : false;
+    sidebar-mode        : false;
+}
+
+@import "colors.rasi"
+@import "fluent.rasi"
