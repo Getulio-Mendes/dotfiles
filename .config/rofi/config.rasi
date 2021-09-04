@@ -13,6 +13,10 @@ configuration {
   }
 }
 
+inputbar {
+  padding: 1% 0 1% 0;
+}
+
 window{
 	background-color: @background;
   text-color: @foreground; 
@@ -34,7 +38,7 @@ element normal.normal {
     text-color:       @foreground;
 }
 element.alternate.normal {
-    background-color: @element-background;
+    background-color: @element-background2;
     text-color:       @foreground;
 }
 
@@ -44,7 +48,9 @@ element-icon {
 
 listview {
   padding:                        6px;
-  border-radius:                  6px;
+  border:                     2px 0 0 0 solid;
+  border-color:                   @element-background2;
+  border-radius:                  0;
   columns:                        2;
   lines:                          7;
   spacing:                       	1%;

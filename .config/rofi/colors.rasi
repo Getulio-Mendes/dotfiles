@@ -2,5 +2,6 @@
   foreground: #ffc485;
   background: #0f1a20;
   element-background: #27343F;
+  element-background2: #27403F;
   selected-background: #590004;
 }
