@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "create-react-app": "^3.4.1",
-    "firebase-tools": "^8.10.0"
-  }
-}

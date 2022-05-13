@@ -3,6 +3,7 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 
 # Add yarn to path
 export PATH=/home/dark/.yarn/bin:$PATH
+export PATH=/home/dark/.local/bin:$PATH
 export PATH=/home/dark/scripts:$PATH
 
 HISTFILE=~/.cache/zsh/history

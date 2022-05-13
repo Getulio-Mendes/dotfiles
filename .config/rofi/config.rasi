@@ -3,7 +3,6 @@ configuration {
   font: "Hack Nerd Font 11";
 	yoffset: 0;
 	xoffset: 0;
-	show-icons: true;
 	terminal: "alacritty";
 	icon-theme          : "Papirus";
 	disable-history: false;
@@ -41,6 +40,11 @@ element.alternate.normal {
     background-color: @element-background2;
     text-color:       @foreground;
 }
+
+message {
+  border: false;
+}
+
 
 element-icon {
   size:                           24px;

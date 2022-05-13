@@ -1,8 +1,0 @@
-# GIMP gimp-operation-tool options
-
-(background (color-rgb 1 0.7686274509803922 0.52156862745098043))
-(average-radius 62)
-(preview no)
-(blending-options-expanded yes)
-
-# end of gimp-operation-tool options

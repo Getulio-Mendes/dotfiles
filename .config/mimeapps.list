@@ -1,2 +1,4 @@
 [Added Associations]
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+text/plain=firefox.desktop;nvim.desktop;urxvt.desktop;
+text/markdown=nvim.desktop;

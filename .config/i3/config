@@ -46,11 +46,11 @@ bindsym $mod+Return exec /bin/alacritty
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show drun 
+bindsym $mod+d exec rofi -show-icons -show drun 
 #bindsym $mod+r exec --no-startup-id rofi -show run -run-shell-command '{terminal} -e zsh -ic "{cmd} && read"'
 bindsym $mod+r exec rofi -show run 
-bindsym $mod+c exec rofi -show filebrowser 
-bindsym $mod+Tab exec rofi -show window
+bindsym $mod+c exec rofi -show-icons -show filebrowser 
+bindsym $mod+Tab exec rofi -show-icons -show window
 
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
